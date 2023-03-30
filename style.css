@@ -7,35 +7,54 @@
 body {
   height: 100vh;
   width: 100vw;
+  background-color: rgb(239, 232, 220);
 }
 
 .parent {
   height: 100%;
-  background-color: gray;
+  /* background-color: gray; */
   display: grid;
   height: 100%;
   width: 100%;
-  gap: 10px;
-  border: 1px solid red;
-  padding: 5px;
-  grid-template-rows: 60% 20% 20% 20% 20%;
+  gap: 15px;
+  
+  padding: 2%;
+  grid-template-rows: 50% 30% 40%;
   grid-template-areas:
-    "danil danil danil    " "jonathan jonathan jonathan jonathan"
+    "danil danil danil    " "jonathan jonathan jonathan "
     "harmon harmon harmon" "patric patric patric" "kira kira kira";
 }
 
 .child {
-  background-color: aqua;
+  
+   
 }
 
 .a {
-    height: fit-content;
+    /* height: fit-content; */
     border: 1px solid black;
     border-radius: 8px;
+    grid-area: danil;
+    background-color: rgb(185, 128, 240);
 }
 
 .b {
-    height: fit-content;
+    /* height: fit-content; */
+    grid-area: jonathan;
+    background-color: rgb(158, 158, 232);
+}
+
+.c {
+    /* height: fit-content; */
+    grid-area: harmon;
+}
+
+.d {
+grid-area: patric;
+}
+
+.e {
+    grid-area: kira;
 }
 
 
