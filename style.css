@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.parent {
+  height: 100%;
+  background-color: gray;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+  border: 1px solid red;
+  padding: 5px;
+  grid-template-rows: 60% 20% 20% 20% 20%;
+  grid-template-areas:
+    "danil danil danil    " "jonathan jonathan jonathan jonathan"
+    "harmon harmon harmon" "patric patric patric" "kira kira kira";
+}
+
+.child {
+  background-color: aqua;
+}
+
+.a {
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.b {
+    height: fit-content;
+}
+
+
