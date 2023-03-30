@@ -17,56 +17,53 @@ body {
   height: 100%;
   width: 100%;
   gap: 15px;
-  
+
   padding: 2%;
-  grid-template-rows: 50% 30% 40%;
+  grid-template-rows: auto auto auto auto auto;
   grid-template-areas:
     "danil danil danil    " "jonathan jonathan jonathan "
     "harmon harmon harmon" "patric patric patric" "kira kira kira";
 }
 
 .child {
-    border: 2px solid ;
-    border-radius: 20px;
-   
+  border: 2px solid;
+  border-radius: 20px;
 }
 
 .a {
-    /* height: fit-content; */
-   
-  
-    grid-area: danil;
-    background-color: rgb(185, 128, 240);
-    color: white;
+  /* height: fit-content; */
+
+  grid-area: danil;
+  background-color: rgb(185, 128, 240);
+  color: white;
 }
 
 .b {
-    /* height: fit-content; */
-    grid-area: jonathan;
-    background-color: rgb(158, 158, 232);
-    color: white;
+  /* height: fit-content; */
+  grid-area: jonathan;
+  background-color: rgb(158, 158, 232);
+  color: white;
 }
 
+
 .c {
-    /* height: fit-content; */
-    grid-area: harmon;
-    background-color: white;
+  /* height: fit-content; */
+  grid-area: harmon;
+  background-color: white;
 }
 
 .d {
-grid-area: patric;
-background-color: rgb(54, 54, 125);
-color: white;
+  grid-area: patric;
+  background-color: rgb(54, 54, 125);
+  color: white;
 }
 
 .e {
-    grid-area: kira;
-    background-color: white;
+  grid-area: kira;
+  background-color: white;
 }
 
 img {
-    border: 1px solid;
-    border-radius: 50px;
+  border: 1px solid;
+  border-radius: 50px;
 }
-
-
